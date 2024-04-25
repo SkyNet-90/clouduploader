@@ -75,6 +75,19 @@ Here's how you can use CloudUploader:
 - **Handling Existing Files**:
   The script will prompt you to overwrite, skip, or rename if a file already exists in the storage.
 
+## Installation Of CloudUploader
+
+To install CloudUploader, run the following commands in your terminal:
+
+```bash
+git clone https://github.com/yourusername/clouduploader.git
+cd clouduploader
+./install.sh
+```
+
+This script will install CloudUploader to your home directory's bin folder and ensure it's executable. Make sure that `$HOME/bin` is in your PATH. If it's not, the installation script will attempt to add it to your `.bashrc`.
+
+
 ## Troubleshooting Common Issues
 
 - **Authentication Failure**: Make sure you are logged into Azure CLI and have the necessary permissions to access the storage account.
